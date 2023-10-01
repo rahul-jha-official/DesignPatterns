@@ -28,3 +28,16 @@ The Interface Segregation Principle states "that clients should not be forced to
 # Dependency Inversion Principle
 The Dependency Inversion Principle (DIP) states that high-level modules/classes should not depend on low-level modules/classes. First, both should depend upon abstractions. Secondly, abstractions should not rely upon details. Finally, details should depend upon abstractions.
 
+# Summary
+- Single Resposibility Principle
+	- A class should only have one reason to change
+	- Separation of concerns - different class handling different, independent task/problems
+- Open-CLose Principle
+	- Class should be open for extension but closed for modification.
+- Liskov Substitution Principle
+	- You should be able to substitute a base type for a subtype.
+- Interface Segregation Principle
+	- Don't put too much into an interface; split into separte interface
+	- YAGNI - You Ain't Going to Need it.
+- Dependency Inversion Principle
+	- High level modules should not depend o=upon low-level ones; use abstractions.
